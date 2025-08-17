@@ -1,0 +1,89 @@
+html,body {
+    font-family: Arial;
+    margin: 20px;
+    background-color: #030303;
+    color:#ffffff;
+ }
+
+ .container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(69, 154, 214, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.done { 
+    text-decoration: line-through; color: rgb(213, 207, 207); 
+}
+
+button {
+    background-color: #459ad6;
+    color: #030303;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 30px;
+   
+}
+
+.botonEliminar{
+   background-color: transparent;
+    margin:10px;
+    color:#ffffff
+}
+
+.lista {
+    width: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+.botonHecha{
+    background-color: transparent;
+    color:#ffffff;
+}   
+
+.botonDesmarcar{
+    background-color: transparent;
+    margin:10px;
+    margin-left:100px;
+    color:#ffffff;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #459ad6;
+    border-radius: 4px;
+    background-color: transparent;
+    color:#ffffff
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.botones {
+  display: flex;
+  gap: 5px;
+}
+
+ul{
+    padding: 0;
+    margin-left: 0;
+}
